@@ -15,12 +15,12 @@ This sample application creates a web photo gallery that allows you to host and 
 
 ## Technologies used
 - ASP.NET MVC 5
-- .NET 4.5
+- .NET 4.6.1
 - Azure Storage emulator
 - Azure Web Apps
 - Azure Storage
 
-Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample uses the .NET 4.5 asynchronous programming model to demonstrate how to call the Storage Service using the Storage .NET client library's asynchronous APIs.
+Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample uses the .NET 4.6.1 asynchronous programming model to demonstrate how to call the Storage Service using the Storage .NET client library's asynchronous APIs.
 
 ## Running this sample
 1. Before you can run this sample, you must have the following prerequisites:
@@ -31,11 +31,13 @@ Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample
 
 3. Clone this repository using Git for Windows (http://www.git-scm.com/), or download the zip file.
 
-4. From Visual Studio, open the **WebApp-Storage-DotNet.sln** file from the root directory.
+4. Navigate to your directory where the **WebApp-Storage-DotNet.sln** resides.
 
-5. In Visual Studio Build menu, select **Build Solution** (or Press F6).
+5. From Visual Studio, open the **WebApp-Storage-DotNet.sln** file from the root directory.
 
-6. You can now run and debug the application locally by pressing **F5** in Visual Studio.
+6. In Visual Studio Build menu, select **Build Solution** (or Press F6).
+
+7. You can now run and debug the application locally by pressing **F5** in Visual Studio.
 
 ## Deploy this sample to Azure
 

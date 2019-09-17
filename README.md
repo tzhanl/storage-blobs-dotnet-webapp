@@ -16,10 +16,10 @@ This sample application creates a web photo gallery that allows you to host and 
 # Floders instroduction
 
 There have two sample floders are referred to different version of Azure storage blob SDK.
-	- storage-blobs-dotnet-webapp-v3 using following packages:
-		- [WindowsAzure.Storage](https://www.nuget.org/packages/WindowsAzure.Storage/)
-	- storage-blobs-dotnet-webapp-v4 using following packages:
-		- [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/)
+- storage-blobs-dotnet-webapp-v3 using following packages:
+	- [WindowsAzure.Storage](https://www.nuget.org/packages/WindowsAzure.Storage/)
+- storage-blobs-dotnet-webapp-v4 using following packages:
+	- [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/)
 		
 ## More information
 - [What is a Storage Account](http://azure.microsoft.com/en-us/documentation/articles/storage-whatis-account/)
