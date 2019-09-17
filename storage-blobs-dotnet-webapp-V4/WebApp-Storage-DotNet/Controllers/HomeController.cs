@@ -44,8 +44,8 @@ namespace WebApp_Storage_DotNet.Controllers
 
     public class HomeController : Controller
     {   
-         static string blobContainerName = "webappstoragedotnet-imagecontainer";
-         static BlobContainerClient blobContainer;
+        static string blobContainerName = "webappstoragedotnet-imagecontainer";
+        static BlobContainerClient blobContainer;
 
         #region controller
         /// <summary> 
