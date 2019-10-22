@@ -13,17 +13,15 @@
 
 namespace WebApp_Storage_DotNet.Controllers
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Web.Mvc;
-    using System.Web;
-    using System.Threading.Tasks;
-    using System.IO;
-    using Microsoft.WindowsAzure;
     using Microsoft.WindowsAzure.Storage;
     using Microsoft.WindowsAzure.Storage.Blob;
-    using Microsoft.Azure;
+    using System;
+    using System.Collections.Generic;
     using System.Configuration;
+    using System.IO;
+    using System.Threading.Tasks;
+    using System.Web;
+    using System.Web.Mvc;
 
     /// <summary> 
     /// Azure Blob Storage Photo Gallery - Demonstrates how to use the Blob Storage service.  
