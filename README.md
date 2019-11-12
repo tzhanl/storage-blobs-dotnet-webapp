@@ -26,12 +26,12 @@ Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample
 	- The Azure Storage Emulator, which you can download [here](https://go.microsoft.com/fwlink/?linkid=717179&clcid=0x409). You can also read more about [Using the Azure Storage emulator for development](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator).
 	- Visual Studio 2017 or Visual Studio 2019.
 
-2. Open the Azure Storage emulator. Once the emulator is running it will be able to process the images from the application.
+2. Open the Azure storage emulator. Once the emulator is running it will be able to process the images from the application.
 
 3. Clone this repository using Git :
-```cmd
-git clone https://github.com/tzhanl/storage-blobs-dotnet-webapp.git
-```	
+	```cmd
+	git clone https://github.com/tzhanl/storage-blobs-dotnet-webapp.git
+	```	
 
 4. Switch to the appropriate folder. Navigate to your directory where the project file (.csproj) resides and open it with Visual Studio.
 
@@ -45,19 +45,19 @@ git clone https://github.com/tzhanl/storage-blobs-dotnet-webapp.git
 
 2. Click Storage Account in the Azure Portal to open it. Select **Settings** > **Access keys** > **Primary Key**, copy the associated **Connection string** to the clipboard, then paste it into a text editor for later use.
 
-2. In the **Web.config** file, located in the project root, find the **StorageConnectionString** app setting and replace the placeholder values with the values obtained for your account.
+3. In the **Web.config** file, located in the project root, find the **StorageConnectionString** app setting and replace the placeholder values with the values obtained for your account.
+	```
+	<add key="StorageConnectionString" value="[Enter Your Storage Connection string]" />
+	```
+4. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
 
-  <add key="StorageConnectionString" value="[Enter Your Storage Connection string]" />
+5. Using the Publish Website dialog, select **Microsoft Azure Web Apps**
 
-3. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
+6. In the next dialog, either select an existing web app, or follow the prompts to create a new web application. Note: If you choose to create a web application, the Web App Name chosen must be globally unique.
 
-4. Using the Publish Website dialog, select **Microsoft Azure Web Apps**
+7. Once you have selected the web app, click **Publish**
 
-5. In the next dialog, either select an existing web app, or follow the prompts to create a new web application. Note: If you choose to create a web application, the Web App Name chosen must be globally unique.
-
-6. Once you have selected the web app, click **Publish**
-
-7. After a short time, Visual Studio will complete the deployment and open a browser with your deployed application.
+8. After a short time, Visual Studio will complete the deployment and open a browser with your deployed application.
 
 For additional ways to deploy this web application to Azure, please refer to the [Deploy a web app in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/) article which includes information on using Azure Resource Manager (ARM) Templates, Git, MsBuild, PowerShell, Web Deploy, and many more.
 
