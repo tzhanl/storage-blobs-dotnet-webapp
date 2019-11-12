@@ -61,7 +61,7 @@ Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample
 
 For additional ways to deploy this web application to Azure, please refer to the [Deploy a web app in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/) article which includes information on using Azure Resource Manager (ARM) Templates, Git, MsBuild, PowerShell, Web Deploy, and many more.
 
-## This Quickstart shows how to do some basic operations of Storage Blobs.
+## This Sample shows how to do some basic operations of Storage Blobs.
 - Create a container.
 - Upload images to storage blob.
 - List block blobs.
