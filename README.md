@@ -43,7 +43,7 @@ Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample
 
 1. To make the sample work in the cloud, you must replace the connection string with the values of an active Azure Storage Account. If you don't have an account, refer to the [Create a Storage Account](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/) article.
 
-2. Click Storage Account in the Azure Portal to open it. Select **Settings** > **Access keys** > **Primary Key**, copy the associated **Connection string** to the clipboard, then paste it into a text editor for later use.
+2. Click Storage Account in the Azure Portal to open it. Select **Settings** > **Access keys** > **Key1/key**, copy the associated **Connection string** to the clipboard, then paste it into a text editor for later use.
 
 3. In the **Web.config** file, located in the project root, find the **StorageConnectionString** app setting and replace the placeholder values with the values obtained for your account.
 	```
