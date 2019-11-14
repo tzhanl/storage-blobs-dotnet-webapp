@@ -13,6 +13,13 @@ This sample application creates a web photo gallery that allows you to host and 
 
 ![Azure Blob Storage Photo Gallery Web Application Sample .NET](./images/photo-gallery.png)
 
+## Azure SDK Versions
+To use the latest Azure SDK version [WebApp-Storage-DotNet-v3](./WebApp-Storage-DotNet-v3), please add the following dependency:
+- [Microsoft.Azure.Storage.Blob](https://www.nuget.org/packages/Microsoft.Azure.Storage.Blob/) 
+
+For the previous Azure SDK version [WebApp-Storage-DotNet-v12](./WebApp-Storage-DotNet-v12), please add the following dependency: 
+- [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/)
+
 ## Technologies used
 - ASP.NET MVC 5
 - Azure Storage emulator
@@ -66,9 +73,6 @@ For additional ways to deploy this web application to Azure, please refer to the
 - Upload images to storage blob.
 - List block blobs.
 - Delete blobs.
-
-## Folders Introduction
-You will find the following folders: WebApp-Storage-DotNet-v3, which references the [Microsoft.Azure.Storage.Blob](https://www.nuget.org/packages/Microsoft.Azure.Storage.Blob/) SDK and WebApp-Storage-DotNet-v12, which uses the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/) version of the SDK.
 
 ## About the code
 The code included in this sample is meant to be a quick start sample for learning about Azure Web Apps and Azure Storage. It is not intended to be a set of best practices on how to build scalable enterprise grade web applications.
